@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-practice",
+  "version": "1.0.0",
+  "description": "nodejs-practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist",
+    "start": "npm run build && node dist/server.js",
+    "start:dev": "babel-node src/server.js"
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kel-lucas/nodejs-practice.git"
+  },
+  "keywords": [
+  ],
+  "author": "Kelvin Lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kel-lucas/nodejs-practice/issues"
+  },
+  "homepage": "https://github.com/kel-lucas/nodejs-practice#readme"
+}
